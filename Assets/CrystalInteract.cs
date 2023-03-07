@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lever : MonoBehaviour
+public class CrystalInteract : MonoBehaviour
 {
     bool canInteract;
-    public GameObject gate;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if (collision.tag == "Player")
         {
             canInteract = true;
             //Debug.Log("i'm in");
@@ -34,9 +33,10 @@ public class Lever : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canInteract == true && Input.GetKeyDown(KeyCode.Z))
+        if (canInteract == true && Input.GetKeyDown(KeyCode.Z))
         {
-            //move lever and move door
+            //turn light on/off
+            //is it the light intensity??
         }
     }
 }
