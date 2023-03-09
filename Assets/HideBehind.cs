@@ -5,10 +5,12 @@ using UnityEngine;
 public class HideBehind : MonoBehaviour
 {
     bool canInteract;
+    private int bustOrder;
     // Start is called before the first frame update
     void Start()
     {
         canInteract = false;
+        bustOrder = gameObject.GetComponent<SpriteRenderer>().sortingOrder;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -35,7 +37,16 @@ public class HideBehind : MonoBehaviour
     {
         if (canInteract == true && Input.GetKeyDown(KeyCode.X))
         {
-            Debug.Log("no see");
+            if (bustOrder == 0)
+            {
+                Debug.Log("no see");
+                bustOrder = 1;
+            }
+            else
+            {
+                Debug.Log("visible");
+                bustOrder = 0;
+            }
         }
     }
 }
