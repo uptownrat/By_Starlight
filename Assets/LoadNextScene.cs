@@ -8,7 +8,7 @@ public class LoadNextScene : MonoBehaviour
     private int sceneNum;
     private void Start()
     {
-        int sceneNum = SceneManager.GetActiveScene().buildIndex;
+        sceneNum = SceneManager.GetActiveScene().buildIndex;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
