@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LeverInteract : MonoBehaviour
 {
+    static int timesInteracted = 0;
+
     bool canInteract;
     public gate gate;
     private Animator anim;
@@ -44,6 +46,7 @@ public class LeverInteract : MonoBehaviour
             anim.SetTrigger("onInteract");
             gate.anim.SetTrigger("onLeverFlip");
             Destroy(gate.col);
+            timesInteracted++;
         }
     }
 }

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class HideBehind : MonoBehaviour
 {
+    static int timesInteracted = 0;
+
     bool canInteract;
     // Start is called before the first frame update
     void Start()
@@ -36,6 +38,7 @@ public class HideBehind : MonoBehaviour
         if (canInteract == true && Input.GetKeyDown(KeyCode.X))
         {
             Debug.Log("no see");
+            timesInteracted++;
         }
     }
 }
