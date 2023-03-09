@@ -12,7 +12,6 @@ public class CrystalInteract : MonoBehaviour
     void Start()
     {
         canInteract = false;
-        //crystal = GetComponent<Light2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
