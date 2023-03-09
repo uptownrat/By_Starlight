@@ -7,18 +7,16 @@ public class playerMove : MonoBehaviour
     [SerializeField] private float speed;
     int doubleJump;
     bool resetJumps;
-    private Rigidbody2D rigidbody;
+    private Rigidbody2D rbody;
    
     private void Awake()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        rbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-
         if(resetJumps == true || doubleJump < 2)
         {
             /*if (Input.GetKeyDown("space") || Input.GetKeyDown("up"))
@@ -29,7 +27,7 @@ public class playerMove : MonoBehaviour
             
             if (Input.GetKeyDown("space") || Input.GetKeyDown("up"))
             {
-                rigidbody.velocity = new Vector2(rigidbody.velocity.x, 7);
+                rbody.velocity = new Vector2(rbody.velocity.x, 7);
                 doubleJump++;
             }
         //}
@@ -38,17 +36,15 @@ public class playerMove : MonoBehaviour
         {
             if (Input.GetKeyDown("space") || Input.GetKeyDown("up"))
             {
-                rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0);
+                rbody.velocity = new Vector2(rbody.velocity.x, 0);
             }
             doubleJump = 0;
-
         }
 
-        rigidbody.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rigidbody.velocity.y);
+        rbody.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rbody.velocity.y);
+    }
 
-        }
-
-        private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.transform.tag == "ground")
         {

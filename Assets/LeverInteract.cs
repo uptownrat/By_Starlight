@@ -5,12 +5,14 @@ using UnityEngine;
 public class LeverInteract : MonoBehaviour
 {
     bool canInteract;
-    public GameObject gate;
+    public gate gate;
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         canInteract = false;
+        anim = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -38,6 +40,8 @@ public class LeverInteract : MonoBehaviour
         if(canInteract == true && Input.GetKeyDown(KeyCode.X))
         {
             //move lever and move door
+            anim.SetTrigger("onInteract");
+            gate.anim.SetTrigger("onLeverFlip");
         }
     }
 }
