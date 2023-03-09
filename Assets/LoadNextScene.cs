@@ -7,6 +7,8 @@ public class LoadNextScene : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Scene currentScene = SceneManager.GetActiveScene();
+
         if(collision.gameObject.tag == "Player")
         {
             SceneManager.LoadScene("Level 2");
