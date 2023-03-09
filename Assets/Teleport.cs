@@ -12,6 +12,7 @@ public class Teleport : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("im in");
             canInteract = true;
         }
     }
@@ -20,13 +21,14 @@ public class Teleport : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("im out");
             canInteract = false;
         }
     }
 
     void Start()
     {
-        
+        canInteract = false;
     }
 
     // Update is called once per frame
@@ -34,6 +36,7 @@ public class Teleport : MonoBehaviour
     {
         if (canInteract == true && Input.GetKeyDown(KeyCode.Z))
         {
+            Debug.Log("teleport");
             GameObject.FindGameObjectWithTag("Player").transform.position = destination.transform.position;
 
         }
