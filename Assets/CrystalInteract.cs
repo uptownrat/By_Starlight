@@ -5,6 +5,8 @@ using UnityEngine.Rendering.Universal;
 
 public class CrystalInteract : MonoBehaviour
 {
+    static int timesInteracted = 0;
+
     bool canInteract;
     public Light2D crystal;
 
@@ -48,6 +50,7 @@ public class CrystalInteract : MonoBehaviour
             {
                 crystal.intensity = 0;
             }
+            timesInteracted++;
         }
     }
 }
