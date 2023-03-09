@@ -5,11 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class LoadNextScene : MonoBehaviour
 {
+    private int sceneNum;
+    private void Start()
+    {
+        int sceneNum = SceneManager.GetActiveScene().buildIndex;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Level 2");
+            int nextScene = sceneNum + 1;
+            SceneManager.LoadScene(nextScene);
         }
     }
 }
