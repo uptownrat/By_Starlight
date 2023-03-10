@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class enemyVision : MonoBehaviour
 {
+<<<<<<< Updated upstream
     //[SerializeField] private float enemSpeed;
     //[SerializeField] private float enemRange;
     float startBound;
@@ -21,6 +22,16 @@ public class enemyVision : MonoBehaviour
     void Start()
     {
         startBound = transform.position.x;
+=======
+    public playerMove player;
+    //public GameObject startPoint;
+    private int thisScene;
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        // player = GameObject.FindGameObjectWithTag("Player");
+>>>>>>> Stashed changes
     }
 
     void Update()
@@ -50,6 +61,7 @@ public class enemyVision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+<<<<<<< Updated upstream
             detectable = true;
             Debug.Log("Detected");
 
@@ -78,4 +90,15 @@ public class enemyVision : MonoBehaviour
             Debug.Log("i'm out");
         }
     }
+=======
+            if (player.playerVisible == true)
+            {
+                Debug.Log("caught");
+                //player.transform.position = startPoint.transform.position;
+                thisScene = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(thisScene);
+            }
+        }
+    }
+>>>>>>> Stashed changes
 }
