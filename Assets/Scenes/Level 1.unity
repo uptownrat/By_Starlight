@@ -703,7 +703,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  playerVisible: 0
 --- !u!61 &862859763
 BoxCollider2D:
   m_ObjectHideFlags: 0
