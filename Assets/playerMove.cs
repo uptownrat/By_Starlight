@@ -8,12 +8,10 @@ public class playerMove : MonoBehaviour
     int doubleJump;
     bool resetJumps;
     private Rigidbody2D rbody;
-    public bool playerVisible;
    
     private void Awake()
     {
         rbody = GetComponent<Rigidbody2D>();
-        playerVisible = true;
     }
 
     // Update is called once per frame

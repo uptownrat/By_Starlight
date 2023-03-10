@@ -51,7 +51,6 @@ public class CrystalInteract : MonoBehaviour
                 crystal.intensity = 0;
             }
             timesInteracted++;
-            Debug.Log(timesInteracted);
         }
     }
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 448110328490997073}
   - component: {fileID: 448110328490997072}
   - component: {fileID: 2431194739284499030}
-  - component: {fileID: 1600390662581712058}
+  - component: {fileID: 4839213319401760373}
   m_Layer: 0
   m_Name: bust
   m_TagString: Untagged
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.7, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1600390662581712058
+--- !u!114 &4839213319401760373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,7 +121,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 448110328490997075}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2600a2127aa0fe45a6067bdaa369b7e, type: 3}
+  m_Script: {fileID: 11500000, guid: 8638c42dd55a3c24ea1f909385b9dbc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerObj: {fileID: 0}
