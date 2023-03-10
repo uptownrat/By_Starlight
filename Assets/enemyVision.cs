@@ -9,6 +9,7 @@ public class enemyVision : MonoBehaviour
     //[SerializeField] private float enemRange;
     float startBound;
     float direction = 1f;
+    private int sceneNum;
 
     [SerializeField] private PolygonCollider2D lightCollider;
     [SerializeField] private LayerMask layer1;
@@ -21,6 +22,7 @@ public class enemyVision : MonoBehaviour
     void Start()
     {
         startBound = transform.position.x;
+        //sceneNum = SceneManager.GetActiveScene().buildIndex;
     }
 
     void Update()
@@ -64,6 +66,7 @@ public class enemyVision : MonoBehaviour
             if (timeLeft < 0)
             {
                 Debug.Log("You lose");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
 
         }
