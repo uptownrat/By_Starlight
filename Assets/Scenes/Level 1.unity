@@ -2047,10 +2047,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 915805885}
     m_Modifications:
-    - target: {fileID: 1770811651707879876, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.4
-      objectReference: {fileID: 0}
     - target: {fileID: 7131531814946919039, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: startPoint
       value: 
@@ -2110,18 +2106,6 @@ PrefabInstance:
     - target: {fileID: 7158222209154007938, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: m_Name
       value: guard (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7158222209154007939, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
-      propertyPath: m_FlipX
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7158222209154007939, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
-      propertyPath: m_FlipY
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7188549946256623940, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
-      propertyPath: m_FlipY
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}

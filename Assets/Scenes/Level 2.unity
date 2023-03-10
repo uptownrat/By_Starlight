@@ -3216,10 +3216,6 @@ PrefabInstance:
       propertyPath: m_PointLightOuterRadius
       value: 2.8250165
       objectReference: {fileID: 0}
-    - target: {fileID: 1770811651707879876, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.46
-      objectReference: {fileID: 0}
     - target: {fileID: 1947572605611854829, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.08
@@ -3582,10 +3578,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7158222209154007939, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: m_FlipX
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7188549946256623940, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
-      propertyPath: m_FlipY
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
