@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class LoadNextScene : MonoBehaviour
 {
@@ -20,5 +21,10 @@ public class LoadNextScene : MonoBehaviour
             int nextScene = sceneNum + 1;
             SceneManager.LoadScene(nextScene);
         }
+    }
+
+    public void LoadFirstLevel()
+    {
+        SceneManager.LoadScene(1);
     }
 }
