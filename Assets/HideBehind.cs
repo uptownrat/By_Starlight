@@ -4,49 +4,28 @@ using UnityEngine;
 
 public class HideBehind : MonoBehaviour
 {
-    bool canInteract;
-    private int bustOrder;
-    // Start is called before the first frame update
-    void Start()
-    {
-        canInteract = false;
-        bustOrder = gameObject.GetComponent<SpriteRenderer>().sortingOrder;
-    }
+        public GameObject playerObj;
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
+        private void OnTriggerEnter2D(Collider2D collision)
         {
-            canInteract = true;
-            Debug.Log("i'm in");
-        }
-
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            canInteract = false;
-            Debug.Log("i'm out");
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (canInteract == true && Input.GetKeyDown(KeyCode.X))
-        {
-            if (bustOrder == 0)
+            if (collision.gameObject.tag == "Player")
             {
-                Debug.Log("no see");
-                bustOrder = 1;
+                //run sleeping animation
+                //gameObject.layer uses only integers, but we can turn a layer name into a layer integer using LayerMask.NameToLayer()
+                int LayerIgnoreRaycast = LayerMask.NameToLayer("Undetectable");
+                playerObj.layer = LayerIgnoreRaycast;
+                Debug.Log("Current layer: " + playerObj.layer);
             }
-            else
+
+        }
+
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            if (collision.gameObject.tag == "Player")
             {
-                Debug.Log("visible");
-                bustOrder = 0;
+                int LayerEnableRaycast = LayerMask.NameToLayer("Player");
+                playerObj.layer = LayerEnableRaycast;
+                Debug.Log("Current layer: " + playerObj.layer);
             }
         }
-    }
-}
+ }
