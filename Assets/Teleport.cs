@@ -5,6 +5,8 @@ using UnityEngine;
 public class Teleport : MonoBehaviour
 {
     // Start is called before the first frame update
+    static int timesInteracted = 0;
+
     public GameObject destination;
     bool canInteract;
 
@@ -12,6 +14,7 @@ public class Teleport : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("im in");
             canInteract = true;
         }
     }
@@ -20,22 +23,24 @@ public class Teleport : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("im out");
             canInteract = false;
         }
     }
 
     void Start()
     {
-        
+        canInteract = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (canInteract == true && Input.GetKeyDown(KeyCode.Z))
+        if (canInteract == true && Input.GetKeyDown(KeyCode.X))
         {
+            Debug.Log("teleport");
             GameObject.FindGameObjectWithTag("Player").transform.position = destination.transform.position;
-
+            timesInteracted++;
         }
     }
 }

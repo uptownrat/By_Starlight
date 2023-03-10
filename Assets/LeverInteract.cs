@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LeverInteract : MonoBehaviour
 {
+    static int timesInteracted = 0;
+
     bool canInteract;
     public gate gate;
     private Animator anim;
@@ -40,8 +42,11 @@ public class LeverInteract : MonoBehaviour
         if(canInteract == true && Input.GetKeyDown(KeyCode.X))
         {
             //move lever and move door
+            Debug.Log("pressed X on the lever");
             anim.SetTrigger("onInteract");
             gate.anim.SetTrigger("onLeverFlip");
+            Destroy(gate.col);
+            timesInteracted++;
         }
     }
 }

@@ -1,19 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 
-public class CrystalInteract : MonoBehaviour
+public class HideBehind : MonoBehaviour
 {
-    static int timesInteracted = 0;
-
     bool canInteract;
-    public Light2D crystal;
-
+    private int bustOrder;
     // Start is called before the first frame update
     void Start()
     {
         canInteract = false;
+        bustOrder = gameObject.GetComponent<SpriteRenderer>().sortingOrder;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -23,7 +20,7 @@ public class CrystalInteract : MonoBehaviour
             canInteract = true;
             Debug.Log("i'm in");
         }
-        
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -38,19 +35,18 @@ public class CrystalInteract : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // turn light on and off
         if (canInteract == true && Input.GetKeyDown(KeyCode.X))
         {
-            Debug.Log("touching");
-            if (crystal.intensity == 0)
+            if (bustOrder == 0)
             {
-                crystal.intensity = 1;
+                Debug.Log("no see");
+                bustOrder = 1;
             }
             else
             {
-                crystal.intensity = 0;
+                Debug.Log("visible");
+                bustOrder = 0;
             }
-            timesInteracted++;
         }
     }
 }
