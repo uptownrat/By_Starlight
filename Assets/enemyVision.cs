@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class enemyVision : MonoBehaviour
 {
     GameObject player;
-    public GameObject startPoint;
+    //public GameObject startPoint;
+    private int thisScene;
     
     // Start is called before the first frame update
     void Start()
@@ -19,7 +21,9 @@ public class enemyVision : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("caught");
-            player.transform.position = startPoint.transform.position;
+            //player.transform.position = startPoint.transform.position;
+            thisScene = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(thisScene);
         }
     }
 
