@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class enemyVision : MonoBehaviour
 {
-    GameObject player;
+    public playerMove player;
     //public GameObject startPoint;
     private int thisScene;
     
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        // player = GameObject.FindObjectOfType<playerMove>();
     }
 
     //returns player to starting point if caught by guard
@@ -20,10 +20,13 @@ public class enemyVision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("caught");
-            //player.transform.position = startPoint.transform.position;
-            thisScene = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(thisScene);
+            if (player.playerVisible == true)
+            {
+                Debug.Log("caught");
+                //player.transform.position = startPoint.transform.position;
+                thisScene = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(thisScene);
+            }
         }
     }
 

@@ -100,6 +100,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemSpeed: 0
   enemRange: 0
+  detectPlayer: {fileID: 0}
+  layer1:
+    serializedVersion: 2
+    m_Bits: 0
+  range: 0
+  detectionDist: 0
+  DetectionRay: {fileID: 0}
+  rayDistance: 0
 --- !u!1 &7292949564138789881
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +207,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0032171756, y: 0.132501}
+  m_Offset: {x: -0.0032171607, y: 0.10534598}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.28866667}
@@ -210,7 +218,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8777416, y: 0.84233534}
+  m_Size: {x: 0.8777416, y: 0.78802526}
   m_EdgeRadius: 0
 --- !u!114 &7131531814946919039
 MonoBehaviour:
@@ -224,4 +232,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ff0efcb274501546be0b9b702ce4f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}

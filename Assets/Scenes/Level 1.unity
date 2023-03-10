@@ -263,7 +263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2431194739284499030, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
-    - {fileID: 4839213319401760373, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
 --- !u!1 &284895210 stripped
 GameObject:
@@ -277,6 +277,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 915805885}
     m_Modifications:
+    - target: {fileID: 7131531814946919039, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 862859762}
     - target: {fileID: 7131531814946919039, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: startPoint
       value: 
@@ -333,6 +337,10 @@ PrefabInstance:
       propertyPath: enemSpeed
       value: 2.75
       objectReference: {fileID: 0}
+    - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: detectPlayer
+      value: 
+      objectReference: {fileID: 1729471638}
     - target: {fileID: 7158222209154007938, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: m_Name
       value: guard (2)
@@ -522,6 +530,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7158222209154007936, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
   m_PrefabInstance: {fileID: 1704687250}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &673286440 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1113894956379049409, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+  m_PrefabInstance: {fileID: 1704687250}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &755839248 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7158222209154007936, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
@@ -689,7 +702,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a85b2fd4beac00c46aef697553d0f801, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 5
+  playerVisible: 0
 --- !u!61 &862859763
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1030,6 +1044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bust (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1600390662581712058, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 862859762}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
 --- !u!4 &1235715294 stripped
@@ -1298,12 +1316,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: bust (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1600390662581712058, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 862859762}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
 --- !u!4 &1315876854 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 448110328490997073, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
   m_PrefabInstance: {fileID: 1315876853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1361692723 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1113894956379049409, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+  m_PrefabInstance: {fileID: 2099667127}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1454859846 stripped
 Transform:
@@ -1449,6 +1476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bust (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1600390662581712058, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 862859762}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
 --- !u!4 &1671942271 stripped
@@ -1648,6 +1679,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 915805885}
     m_Modifications:
     - target: {fileID: 7131531814946919039, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 862859762}
+    - target: {fileID: 7131531814946919039, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: startPoint
       value: 
       objectReference: {fileID: 284895210}
@@ -1703,12 +1738,21 @@ PrefabInstance:
       propertyPath: enemSpeed
       value: 2.75
       objectReference: {fileID: 0}
+    - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: detectPlayer
+      value: 
+      objectReference: {fileID: 673286440}
     - target: {fileID: 7158222209154007938, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: m_Name
       value: guard (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+--- !u!61 &1729471638 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1113894956379049409, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+  m_PrefabInstance: {fileID: 327636002}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1810833311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,6 +1792,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7158222209154007936, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
   m_PrefabInstance: {fileID: 327636002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1836464811 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1113894956379049409, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+  m_PrefabInstance: {fileID: 7158222208443467154}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1920602930 stripped
 Transform:
@@ -2047,6 +2096,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 915805885}
     m_Modifications:
+    - target: {fileID: 1770811651707879876, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131531814946919039, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 862859762}
     - target: {fileID: 7131531814946919039, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: startPoint
       value: 
@@ -2103,9 +2160,25 @@ PrefabInstance:
       propertyPath: enemSpeed
       value: 2.75
       objectReference: {fileID: 0}
+    - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: detectPlayer
+      value: 
+      objectReference: {fileID: 1361692723}
     - target: {fileID: 7158222209154007938, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: m_Name
       value: guard (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158222209154007939, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7158222209154007939, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188549946256623940, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
@@ -2164,6 +2237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bust
       objectReference: {fileID: 0}
+    - target: {fileID: 1600390662581712058, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 862859762}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
 --- !u!1001 &691464230005942339
@@ -2353,6 +2430,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 915805885}
     m_Modifications:
     - target: {fileID: 7131531814946919039, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 862859762}
+    - target: {fileID: 7131531814946919039, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: startPoint
       value: 
       objectReference: {fileID: 284895210}
@@ -2408,6 +2489,10 @@ PrefabInstance:
       propertyPath: enemSpeed
       value: 2.75
       objectReference: {fileID: 0}
+    - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: detectPlayer
+      value: 
+      objectReference: {fileID: 1836464811}
     - target: {fileID: 7158222209154007938, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: m_Name
       value: guard
