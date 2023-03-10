@@ -5,7 +5,7 @@ using UnityEngine;
 public class Teleport : MonoBehaviour
 {
     // Start is called before the first frame update
-    static int timesInteracted = 0;
+    public static int timesInteracted = 0;
 
     public GameObject destination;
     bool canInteract;
@@ -41,6 +41,7 @@ public class Teleport : MonoBehaviour
             Debug.Log("teleport");
             GameObject.FindGameObjectWithTag("Player").transform.position = destination.transform.position;
             timesInteracted++;
+            Debug.Log("Tele interacts:" + timesInteracted);
         }
     }
 }
