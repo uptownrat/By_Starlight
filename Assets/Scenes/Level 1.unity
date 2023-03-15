@@ -703,6 +703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
+  playerVisible: 0
 --- !u!61 &862859763
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1043,6 +1044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bust (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4839213319401760373, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 862859761}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
 --- !u!4 &1235715294 stripped
@@ -1311,6 +1316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bust (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4839213319401760373, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 862859761}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
 --- !u!4 &1315876854 stripped
@@ -1462,6 +1471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bust (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4839213319401760373, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 862859761}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
 --- !u!4 &1671942271 stripped
@@ -2203,6 +2216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bust
       objectReference: {fileID: 0}
+    - target: {fileID: 4839213319401760373, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 862859761}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfece26f031e76d4ebfdd1de2f9749e6, type: 3}
 --- !u!1001 &691464230005942339

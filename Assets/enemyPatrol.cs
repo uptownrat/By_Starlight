@@ -8,14 +8,15 @@ public class enemyPatrol : MonoBehaviour
     [SerializeField] private float enemRange;
     private SpriteRenderer Srenderer;
     float startBound;
-    float direction = 1f;
+    int direction = 1;
 
-    //[SerializeField] private BoxCollider2D knightCollider;
-    //[SerializeField] private LayerMask layer1;
-    //[SerializeField] private float detectionDist;
-    //bool detectable;
+    [SerializeField] private BoxCollider2D detectPlayer;
+    [SerializeField] private LayerMask layer1;
+    [SerializeField] private float range;
+    [SerializeField] private float detectionDist;
+    public GameObject playerObj;
 
-    float timeLeft = 3.0f;
+    float timeLeft = 2.0f;
 
     void Start()
     {
@@ -29,24 +30,20 @@ public class enemyPatrol : MonoBehaviour
         Vector3 right = new Vector3(0, 0, 0);
         Vector3 left = new Vector3(0, 180, 0);
 
-
         if (transform.position.x < startBound)
         {
-            direction *= -1f;
+            direction *= -1;
             transform.eulerAngles = left;
             //knightCollider.offset = new Vector2(1, knightCollider.offset.y);
 
         }
         else if(transform.position.x > startBound + enemRange)
         {
-            direction *= -1f;
+            direction *= -1;
             transform.eulerAngles = right;
             //knightCollider.offset = new Vector2(-1, knightCollider.offset.y);
 
         }
-
-
-
     }
 
    /* private void OnTriggerEnter2D(Collider2D collision)
