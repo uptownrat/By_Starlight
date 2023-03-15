@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 7158222209154007936}
   - component: {fileID: 7158222209154007939}
   - component: {fileID: 7158222209154007937}
+  - component: {fileID: 5609221196612684140}
   m_Layer: 0
   m_Name: guard
   m_TagString: Untagged
@@ -132,6 +133,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemSpeed: 0
   enemRange: 0
+  detectPlayer: {fileID: 0}
+  layer1:
+    serializedVersion: 2
+    m_Bits: 0
+  range: 0
+  detectionDist: 0
+  playerObj: {fileID: 0}
+--- !u!61 &5609221196612684140
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158222209154007938}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.35, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.12, y: 1.95}
+    newSize: {x: 1.12, y: 1.95}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9, y: 1.95}
+  m_EdgeRadius: 0
 --- !u!1 &7292949564138789881
 GameObject:
   m_ObjectHideFlags: 0

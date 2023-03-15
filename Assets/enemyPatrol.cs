@@ -15,6 +15,7 @@ public class enemyPatrol : MonoBehaviour
     [SerializeField] private float range;
     [SerializeField] private float detectionDist;
     public GameObject playerObj;
+    bool canInteract;
 
     float timeLeft = 2.0f;
 
@@ -46,38 +47,82 @@ public class enemyPatrol : MonoBehaviour
         }
     }
 
-   /* private void OnTriggerEnter2D(Collider2D collision)
+    private bool playerCaught()
+    {
+        RaycastHit2D found = Physics2D.BoxCast(detectPlayer.bounds.center + transform.right * range * direction * detectionDist,
+            new Vector3(detectPlayer.bounds.size.x * range, detectPlayer.bounds.size.y, detectPlayer.bounds.size.z),
+            0, Vector2.left, 0, layer1);
+
+        return found.collider != null;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            detectable = true;
-            Debug.Log("Detected");
-
+            canInteract = true;
+            Debug.Log("ready 4 sleep");
         }
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (detectable == true)
-        {
-            timeLeft -= Time.deltaTime;
-            if (timeLeft < 0)
-            {
-                Debug.Log("You lose");
-            }
-
-        }
-
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            detectable = false;
-            Debug.Log("i'm out");
+            canInteract = false;
+            Debug.Log("safe");
         }
-    }*/
+    }
 
-
+    private void sleepingSpell()
+    {
+        if (canInteract == true && Input.GetKeyDown(KeyCode.X)) //change to hold z later when working
+        {
+            //run sleeping animation
+            //gameObject.layer uses only integers, but we can turn a layer name into a layer integer using LayerMask.NameToLayer()
+            int LayerIgnoreRaycast = LayerMask.NameToLayer("enemySleeping");
+            playerObj.layer = LayerIgnoreRaycast;
+            Debug.Log("Current layer: " + playerObj.layer);
+        }
+        else
+        {
+            int LayerEnableRaycast = LayerMask.NameToLayer("Player");
+            playerObj.layer = LayerEnableRaycast;
+            Debug.Log("Current layer: " + playerObj.layer);
+        }
+    }
 }
+
+    /* private void OnTriggerEnter2D(Collider2D collision)
+     {
+         if (collision.gameObject.tag == "Player")
+         {
+             detectable = true;
+             Debug.Log("Detected");
+
+         }
+     }
+
+     private void OnTriggerStay2D(Collider2D collision)
+     {
+         if (detectable == true)
+         {
+             timeLeft -= Time.deltaTime;
+             if (timeLeft < 0)
+             {
+                 Debug.Log("You lose");
+             }
+
+         }
+
+     }
+
+     private void OnTriggerExit2D(Collider2D collision)
+     {
+         if (collision.gameObject.tag == "Player")
+         {
+             detectable = false;
+             Debug.Log("i'm out");
+         }
+     }*/
+
