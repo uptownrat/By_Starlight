@@ -63,6 +63,7 @@ public class enemyPatrol : MonoBehaviour
             canInteract = true;
             Debug.Log("ready 4 sleep");
         }
+        sleepingSpell();
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -78,6 +79,7 @@ public class enemyPatrol : MonoBehaviour
     {
         if (canInteract == true && Input.GetKeyDown(KeyCode.X)) //change to hold z later when working
         {
+            Debug.Log("sleeping");
             //run sleeping animation
             //gameObject.layer uses only integers, but we can turn a layer name into a layer integer using LayerMask.NameToLayer()
             int LayerIgnoreRaycast = LayerMask.NameToLayer("enemySleeping");

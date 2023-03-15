@@ -697,7 +697,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.8679245, g: 0.7156283, b: 0.76526946, a: 1}
+  m_Color: {r: 0, g: 0.9372549, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1363,6 +1363,10 @@ PrefabInstance:
       propertyPath: enemSpeed
       value: 2.75
       objectReference: {fileID: 0}
+    - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 253606849}
     - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: detectPlayer
       value: 
@@ -2334,6 +2338,10 @@ PrefabInstance:
       propertyPath: enemSpeed
       value: 2.75
       objectReference: {fileID: 0}
+    - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 253606849}
     - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: detectPlayer
       value: 
@@ -3604,6 +3612,10 @@ PrefabInstance:
       value: 2.75
       objectReference: {fileID: 0}
     - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 253606849}
+    - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: detectPlayer
       value: 
       objectReference: {fileID: 1647093758}
@@ -4703,6 +4715,10 @@ PrefabInstance:
       propertyPath: enemSpeed
       value: 2.75
       objectReference: {fileID: 0}
+    - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 253606849}
     - target: {fileID: 7158222209154007937, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: detectPlayer
       value: 
