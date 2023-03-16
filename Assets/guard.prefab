@@ -297,3 +297,4 @@ MonoBehaviour:
   detectionDist: 0
   speed: 0
   range: 0
+  warning: {fileID: 3723815489452537347, guid: 21a8344213c489c49a8f3b73a905fcf4, type: 3}

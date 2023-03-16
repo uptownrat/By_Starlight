@@ -17,11 +17,16 @@ public class enemyVision : MonoBehaviour
     bool detectable;
     [SerializeField] private float speed;
     [SerializeField] private float range;
+    [SerializeField] GameObject warning;
+    
+    GameObject dot;
+    //Transform enemy;
 
     float timeLeft = 3.0f;
     void Start()
     {
         startBound = transform.position.x;
+        //enemy = gameObject.transform.parent;
         //sceneNum = SceneManager.GetActiveScene().buildIndex;
     }
 
@@ -44,17 +49,22 @@ public class enemyVision : MonoBehaviour
             transform.eulerAngles = right;
 
         }
-
-
-
     }
+
+    private void CreateWarning()
+    {
+        dot = Instantiate(warning, transform.position, transform.rotation);
+        //warning.transform.position = new Vector3(enemy.position.x, enemy.position.y + 5.0f, enemy.position.z);
+        //warning.transform.SetParent(enemy.transform);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             detectable = true;
             Debug.Log("Detected");
-
+            CreateWarning();
         }
     }
 
@@ -79,6 +89,7 @@ public class enemyVision : MonoBehaviour
         {
             detectable = false;
             Debug.Log("i'm out");
+            Destroy(dot);
         }
     }
 }
