@@ -36,7 +36,7 @@ public class Teleport : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canInteract == true && Input.GetKeyDown(KeyCode.X))
+        if (canInteract == true && Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("teleport");
             GameObject.FindGameObjectWithTag("Player").transform.position = destination.transform.position;

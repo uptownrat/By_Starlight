@@ -39,7 +39,7 @@ public class CrystalInteract : MonoBehaviour
     void Update()
     {
         // turn light on and off
-        if (canInteract == true && Input.GetKeyDown(KeyCode.X))
+        if (canInteract == true && Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("touching");
             if (crystal.intensity == 0)

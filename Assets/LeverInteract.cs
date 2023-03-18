@@ -39,7 +39,7 @@ public class LeverInteract : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canInteract == true && Input.GetKeyDown(KeyCode.X))
+        if(canInteract == true && Input.GetKeyDown(KeyCode.E))
         {
             //move lever and move door
             Debug.Log("pressed X on the lever");
