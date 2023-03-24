@@ -20,6 +20,8 @@ public class enemyVision : MonoBehaviour
     [SerializeField] GameObject warning;
     
     GameObject dot;
+    public static Vector2 checkpoint;
+    [SerializeField] playerMove player;
     //Transform enemy;
 
     float timeLeft = 3.0f;
@@ -76,7 +78,9 @@ public class enemyVision : MonoBehaviour
             if (timeLeft < 0)
             {
                 Debug.Log("You lose");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                //moves player to the last checkpoint they touched
+                player.GetComponent<playerMove>().transform.position = checkpoint;
             }
 
         }
