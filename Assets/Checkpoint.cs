@@ -9,6 +9,7 @@ public class Checkpoint : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             enemyVision.checkpoint = transform.position;
+            Debug.Log("saved");
         }
     }
 }
