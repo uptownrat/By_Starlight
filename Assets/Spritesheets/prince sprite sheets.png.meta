@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: 2a55b8107b0da614394473e04216dfea
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prince stand
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 355
+        width: 122
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2523c1b683842e14986f77765473304d
+      internalID: 492644546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince run
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 353
+        width: 181
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0c46ae2412f4641854d98830d8071d
+      internalID: 2077280383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince charge
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 317
+        width: 139
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75094f022ccd654989ddda1d56b3389
+      internalID: 1413071950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince walk
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 324
+        width: 166
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6e9b51cdcdd6647b86b75a8318c940
+      internalID: -1510506808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince hide
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 131
+        width: 117
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d34a7a5189bff94b8835eadc5ce9879
+      internalID: -1374185086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince swing
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 73
+        width: 211
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cd6f82529aa0b40a5c7e090a58d800
+      internalID: 1988173193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince hit
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 28
+        width: 205
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeadc2f1819b0e42886fe6d4f85bfaa
+      internalID: -1749783317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince jump
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 10
+        width: 170
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192084f74cd1752419797897b97f17dc
+      internalID: 2053044191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      prince sprite sheets_32: -797183982
+      prince sprite sheets_42: 1698602354
+      prince sprite sheets_4: 2094808482
+      prince sprite sheets_21: -793679815
+      prince sprite sheets_46: 84933756
+      prince sprite sheets_49: 1390928457
+      prince sprite sheets_50: -873435008
+      prince sprite sheets_57: -2037688712
+      prince sprite sheets_69: 1786067725
+      prince hit: -1749783317
+      prince sprite sheets_43: 1939541715
+      prince sprite sheets_0: 1306010055
+      prince sprite sheets_18: -981055752
+      prince sprite sheets_17: 1476913154
+      prince sprite sheets_23: 1623535132
+      prince sprite sheets_62: -1613951770
+      prince sprite sheets_25: -1854735449
+      prince sprite sheets_47: -612305676
+      prince sprite sheets_60: -1865339645
+      prince sprite sheets_27: -2129050023
+      prince sprite sheets_55: -1260191906
+      prince sprite sheets_41: 1804278121
+      prince jump: 2053044191
+      prince sprite sheets_73: -1091138872
+      prince sprite sheets_40: 746356937
+      prince sprite sheets_20: -1039913012
+      prince sprite sheets_37: 1851018431
+      prince sprite sheets_19: 669670663
+      prince sprite sheets_51: -851932740
+      prince sprite sheets_56: 106322010
+      prince sprite sheets_2: -2015817106
+      prince sprite sheets_68: -1697353861
+      prince sprite sheets_65: 1036582328
+      prince sprite sheets_52: -110697941
+      prince sprite sheets_5: -1500216329
+      prince sprite sheets_71: -2119193968
+      prince sprite sheets_15: 1845031298
+      prince sprite sheets_66: 280262460
+      prince sprite sheets_64: 1781973573
+      prince sprite sheets_26: 2125806573
+      prince sprite sheets_22: 2009945874
+      prince sprite sheets_34: -714683945
+      prince sprite sheets_1: 900216168
+      prince walk: -1510506808
+      prince swing: 1988173193
+      prince sprite sheets_58: 414727830
+      prince sprite sheets_33: -1690307015
+      prince sprite sheets_9: -362295150
+      prince sprite sheets_59: -1367344271
+      prince sprite sheets_8: -476273885
+      prince sprite sheets_30: -157271063
+      prince sprite sheets_11: -382321751
+      prince sprite sheets_3: 897813601
+      prince sprite sheets_44: 501830374
+      prince sprite sheets_77: -1067168441
+      prince sprite sheets_36: 677768342
+      prince sprite sheets_28: 1672631126
+      prince sprite sheets_35: -1974250378
+      prince sprite sheets_79: -1010819256
+      prince sprite sheets_54: 530070664
+      prince sprite sheets_75: 329273833
+      prince sprite sheets_7: 925468826
+      prince run: 2077280383
+      prince sprite sheets_6: -927795101
+      prince sprite sheets_53: -288717103
+      prince sprite sheets_61: -1996363319
+      prince sprite sheets_74: 1546009416
+      prince sprite sheets_78: -1438723284
+      prince stand: 492644546
+      prince sprite sheets_13: -2076238316
+      prince sprite sheets_29: 292652067
+      prince sprite sheets_38: -1796710091
+      prince sprite sheets_39: 777835922
+      prince sprite sheets_76: 871051696
+      prince sprite sheets_45: -566325775
+      prince sprite sheets_12: -364243296
+      prince sprite sheets_14: 88429512
+      prince sprite sheets_72: 219678220
+      prince hide: -1374185086
+      prince charge: 1413071950
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
