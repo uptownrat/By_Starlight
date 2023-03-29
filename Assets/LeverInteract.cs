@@ -7,7 +7,7 @@ public class LeverInteract : MonoBehaviour
     public static int timesInteracted = 0;
 
     bool canInteract;
-    public gate gate;
+    [SerializeField] gate gate, gate2, gate3;
     private Animator anim;
 
     // Start is called before the first frame update
@@ -41,13 +41,23 @@ public class LeverInteract : MonoBehaviour
     {
         if(canInteract == true && Input.GetKeyDown(KeyCode.E))
         {
-            //move lever and move door
-            Debug.Log("pressed X on the lever");
-            anim.SetTrigger("onInteract");
-            gate.anim.SetTrigger("onLeverFlip");
-            Destroy(gate.col);
+            //move lever
+            Debug.Log("pressed E on the lever");
             timesInteracted++;
-            Debug.Log("Lever interacts:" + timesInteracted);
+            if(timesInteracted % 2 == 1)
+            {
+                anim.SetTrigger("onInteract");
+            }
+            else if(timesInteracted % 2 == 1)
+            {
+                //insert animation for moving lever back to original position
+            }
+            //Debug.Log("Lever interacts:" + timesInteracted);
+
+            //moving doors
+            gate.MoveGate();
+            gate2.MoveGate();
+            gate3.MoveGate();
         }
     }
 }

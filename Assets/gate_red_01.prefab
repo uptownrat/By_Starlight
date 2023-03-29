@@ -121,6 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   col: {fileID: 0}
+  isOpen: 0
 --- !u!61 &5069131524715632963
 BoxCollider2D:
   m_ObjectHideFlags: 0
