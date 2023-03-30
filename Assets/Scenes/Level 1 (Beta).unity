@@ -469,10 +469,6 @@ PrefabInstance:
       propertyPath: gate2
       value: 
       objectReference: {fileID: 1821293196}
-    - target: {fileID: 838403845097370946, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 7b5960346b594194d9dd15d064f19064, type: 2}
     - target: {fileID: 838403845097370951, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -517,6 +513,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6943064075759909625, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1b1849797da84444eb58a6c5c288ef92, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
 --- !u!1001 &125108371
@@ -872,6 +872,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 17d64fd3d0544a24f84ffebb0bedc865, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_green_02
@@ -1187,14 +1191,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 17d64fd3d0544a24f84ffebb0bedc865, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_green_03
       objectReference: {fileID: 0}
-    - target: {fileID: 5069131524715632965, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 03ac0d370c42d754a88fe0b8a801f680, type: 2}
     - target: {fileID: 5069131524715632966, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2696,6 +2700,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6943064075759909625, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 50ca34cde685f3b409cd42919cc11e66, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
 --- !u!114 &808245362 stripped
@@ -2743,10 +2751,6 @@ PrefabInstance:
       propertyPath: gate
       value: 
       objectReference: {fileID: 1143245322}
-    - target: {fileID: 838403845097370946, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: dc2c593ab2d16724cb19689dce518330, type: 2}
     - target: {fileID: 838403845097370951, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2791,6 +2795,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6943064075759909625, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 50ca34cde685f3b409cd42919cc11e66, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
 --- !u!114 &846532939 stripped
@@ -3125,6 +3133,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75e7f24b5b37a304f8c3545a80e5052b, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_red_03-2
@@ -4964,6 +4976,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b210c890aed52ce498237ec6f7e7aef1, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_blue_02
@@ -5443,14 +5459,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b210c890aed52ce498237ec6f7e7aef1, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_blue_01
       objectReference: {fileID: 0}
-    - target: {fileID: 5069131524715632965, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 467829c74dc8e2d48bbcc0763b7a548e, type: 2}
     - target: {fileID: 5069131524715632966, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -5656,6 +5672,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b210c890aed52ce498237ec6f7e7aef1, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_blue_03-2
@@ -5668,10 +5688,6 @@ PrefabInstance:
       propertyPath: isOpen
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5069131524715632965, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 467829c74dc8e2d48bbcc0763b7a548e, type: 2}
     - target: {fileID: 5069131524715632966, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -5729,6 +5745,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75e7f24b5b37a304f8c3545a80e5052b, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_red_02-1
@@ -5802,14 +5822,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b210c890aed52ce498237ec6f7e7aef1, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_blue_03-1
       objectReference: {fileID: 0}
-    - target: {fileID: 5069131524715632965, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 467829c74dc8e2d48bbcc0763b7a548e, type: 2}
     - target: {fileID: 5069131524715632966, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -5926,6 +5946,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75e7f24b5b37a304f8c3545a80e5052b, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_red_03-1
@@ -6194,10 +6218,6 @@ PrefabInstance:
       propertyPath: gate
       value: 
       objectReference: {fileID: 228630320}
-    - target: {fileID: 838403845097370946, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 7b5960346b594194d9dd15d064f19064, type: 2}
     - target: {fileID: 838403845097370951, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -6242,6 +6262,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6943064075759909625, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1b1849797da84444eb58a6c5c288ef92, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
 --- !u!4 &1944849083 stripped
@@ -6313,6 +6337,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75e7f24b5b37a304f8c3545a80e5052b, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_red_02-2
@@ -6625,6 +6653,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6943064075759909625, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1b1849797da84444eb58a6c5c288ef92, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
 --- !u!1001 &2057932915
@@ -6840,6 +6872,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6943064075759909625, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 50ca34cde685f3b409cd42919cc11e66, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d288a0e531ff7443baced80a6ee4d17, type: 3}
 --- !u!1001 &2140327490
@@ -6849,14 +6885,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 17d64fd3d0544a24f84ffebb0bedc865, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_green_01
       objectReference: {fileID: 0}
-    - target: {fileID: 5069131524715632965, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 03ac0d370c42d754a88fe0b8a801f680, type: 2}
     - target: {fileID: 5069131524715632966, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -7081,6 +7117,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 672888887}
     m_Modifications:
+    - target: {fileID: 3203343994224266278, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 75e7f24b5b37a304f8c3545a80e5052b, type: 2}
     - target: {fileID: 5069131524715632962, guid: 19f3f205aad91324d8d737859bbc4cae, type: 3}
       propertyPath: m_Name
       value: gate_red_01

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 838403845097370951}
   - component: {fileID: 838403845097370944}
   - component: {fileID: 838403845097370945}
-  - component: {fileID: 838403845097370946}
   - component: {fileID: 838403845097370947}
+  - component: {fileID: 6943064075759909625}
   m_Layer: 0
   m_Name: lever_red_01
   m_TagString: Untagged
@@ -100,26 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gate: {fileID: 0}
---- !u!95 &838403845097370946
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 838403845097370940}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1a4b8340149c8e14e9c948e1743b8624, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  gate2: {fileID: 0}
+  gate3: {fileID: 0}
 --- !u!58 &838403845097370947
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -136,3 +118,23 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1
+--- !u!95 &6943064075759909625
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838403845097370940}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 84ff45f157a1d5340afd73d0e3f24b86, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

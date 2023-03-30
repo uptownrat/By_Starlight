@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: lever_blue_flip
+  m_Name: gate_b_close
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -1295364270, guid: 56b1c6d4bb267ed47a2eeba4750f25b8, type: 3}
-    - time: 0.016666668
-      value: {fileID: -743871728, guid: 56b1c6d4bb267ed47a2eeba4750f25b8, type: 3}
+      value: {fileID: 498766283, guid: 5f403728c96a0124892cae09e54658d6, type: 3}
+    - time: 0.06666667
+      value: {fileID: -2064185924, guid: 5f403728c96a0124892cae09e54658d6, type: 3}
     - time: 0.13333334
-      value: {fileID: 1033875847, guid: 56b1c6d4bb267ed47a2eeba4750f25b8, type: 3}
+      value: {fileID: -2116624493, guid: 5f403728c96a0124892cae09e54658d6, type: 3}
+    - time: 0.2
+      value: {fileID: 1773868024, guid: 5f403728c96a0124892cae09e54658d6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,15 +46,16 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -1295364270, guid: 56b1c6d4bb267ed47a2eeba4750f25b8, type: 3}
-    - {fileID: -743871728, guid: 56b1c6d4bb267ed47a2eeba4750f25b8, type: 3}
-    - {fileID: 1033875847, guid: 56b1c6d4bb267ed47a2eeba4750f25b8, type: 3}
+    - {fileID: 498766283, guid: 5f403728c96a0124892cae09e54658d6, type: 3}
+    - {fileID: -2064185924, guid: 5f403728c96a0124892cae09e54658d6, type: 3}
+    - {fileID: -2116624493, guid: 5f403728c96a0124892cae09e54658d6, type: 3}
+    - {fileID: 1773868024, guid: 5f403728c96a0124892cae09e54658d6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.15
+    m_StopTime: 0.21666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

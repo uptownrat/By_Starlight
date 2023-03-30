@@ -122,7 +122,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 90
+        width: 100
         height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,9 +141,9 @@ TextureImporter:
       name: door_green_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 90
+        x: 100
         y: 0
-        width: 90
+        width: 100
         height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,9 +162,9 @@ TextureImporter:
       name: door_green_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 180
+        x: 200
         y: 0
-        width: 90
+        width: 100
         height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -183,9 +183,9 @@ TextureImporter:
       name: door_green_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 270
+        x: 300
         y: 0
-        width: 90
+        width: 100
         height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -196,6 +196,48 @@ TextureImporter:
       bones: []
       spriteID: 5b76023728c67fc4f87181bc57b99808
       internalID: 1272932301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_green_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1926e341b9238e0459db977293ac3e7f
+      internalID: -169585434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_green_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d06c5eeab39c443a9d196468a3d9cb
+      internalID: 1561359645
       vertices: []
       indices: 
       edges: []
@@ -212,8 +254,10 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       door_green_spritesheet_1: -1208026354
+      door_green_spritesheet_5: 1561359645
       door_green_spritesheet_3: 1272932301
       door_green_spritesheet_0: -1668100122
+      door_green_spritesheet_4: -169585434
       door_green_spritesheet_2: -1762146445
   spritePackingTag: 
   pSDRemoveMatte: 0

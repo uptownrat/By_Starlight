@@ -23,13 +23,13 @@ public class gate : MonoBehaviour
         if(gameObject != null) {
             if (isOpen == false)
             {
-                anim.SetTrigger("onLeverFlip");
+                anim.SetTrigger("onLeverOn");
                 Destroy(col);
                 isOpen = true;
             }
             else if (isOpen == true)
             {
-                //add animation for closing gate
+                anim.SetTrigger("onLeverOff");
                 col = gameObject.AddComponent<BoxCollider2D>();
                 isOpen = false;
             }

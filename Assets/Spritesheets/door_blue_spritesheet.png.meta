@@ -122,7 +122,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 90
+        width: 100
         height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,9 +141,9 @@ TextureImporter:
       name: door_blue_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 90
+        x: 100
         y: 0
-        width: 90
+        width: 100
         height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,9 +162,9 @@ TextureImporter:
       name: door_blue_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 180
+        x: 200
         y: 0
-        width: 90
+        width: 100
         height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -183,9 +183,9 @@ TextureImporter:
       name: door_blue_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 270
+        x: 300
         y: 0
-        width: 90
+        width: 100
         height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -196,6 +196,48 @@ TextureImporter:
       bones: []
       spriteID: 56b8da965269ec74cab549fb3fa5863e
       internalID: 498766283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_blue_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d41c9276551db34db1ccfb018381c4a
+      internalID: -2064185924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_blue_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3af007c2a497c43be8b9dfe52702b1
+      internalID: -2116624493
       vertices: []
       indices: 
       edges: []
@@ -213,6 +255,8 @@ TextureImporter:
     nameFileIdTable:
       door_blue_spritesheet_3: 498766283
       door_blue_spritesheet_0: 1773868024
+      door_blue_spritesheet_5: -2116624493
+      door_blue_spritesheet_4: -2064185924
       door_blue_spritesheet_2: -1870729866
       door_blue_spritesheet_1: 1472750837
   spritePackingTag: 

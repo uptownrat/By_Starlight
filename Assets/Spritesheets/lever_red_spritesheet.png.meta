@@ -179,6 +179,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: lever_red_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 164
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822a1bf33c4a8c443b2e9e3472585102
+      internalID: -1826229909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -191,6 +212,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       lever_red_spritesheet_1: 932363163
+      lever_red_spritesheet_3: -1826229909
       lever_red_spritesheet_2: 1809231158
       lever_red_spritesheet_0: -341229424
   spritePackingTag: 

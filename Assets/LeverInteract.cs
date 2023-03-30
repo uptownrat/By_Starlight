@@ -46,11 +46,11 @@ public class LeverInteract : MonoBehaviour
             timesInteracted++;
             if(timesInteracted % 2 == 1)
             {
-                anim.SetTrigger("onInteract");
+                anim.SetTrigger("onInteractOn");
             }
-            else if(timesInteracted % 2 == 1)
+            else if(timesInteracted % 2 != 1)
             {
-                //insert animation for moving lever back to original position
+                anim.SetTrigger("onInteractOff");
             }
             //Debug.Log("Lever interacts:" + timesInteracted);
 

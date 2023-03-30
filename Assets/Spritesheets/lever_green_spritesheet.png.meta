@@ -179,6 +179,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: lever_green_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 164
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea91d9f508ef3fa40b3e7258e86fd953
+      internalID: -1342186088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -190,6 +211,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      lever_green_spritesheet_3: -1342186088
       lever_green_spritesheet_2: 2017061422
       lever_green_spritesheet_1: -561790703
       lever_green_spritesheet_0: 1631666854
