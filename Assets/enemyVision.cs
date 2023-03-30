@@ -24,6 +24,8 @@ public class enemyVision : MonoBehaviour
     [SerializeField] playerMove player;
     //Transform enemy;
 
+    public worryMeter worry;
+
     float timeLeft = 3.0f;
     void Start()
     {
@@ -81,6 +83,8 @@ public class enemyVision : MonoBehaviour
                 //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
                 //moves player to the last checkpoint they touched
                 player.GetComponent<playerMove>().transform.position = checkpoint;
+                timeLeft = 3.0f;
+                worry.onCaught();
             }
 
         }
