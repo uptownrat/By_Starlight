@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 7158222209154007939}
   - component: {fileID: 7158222209154007937}
   - component: {fileID: 5609221196612684140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: guard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,3 +298,5 @@ MonoBehaviour:
   speed: 0
   range: 0
   warning: {fileID: 3723815489452537347, guid: 21a8344213c489c49a8f3b73a905fcf4, type: 3}
+  player: {fileID: 0}
+  worry: {fileID: 0}
