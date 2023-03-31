@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4091482654220783684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 5609221196612684140}
   m_Layer: 8
   m_Name: guard
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,7 +133,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemSpeed: 0
   enemRange: 0
-  detectPlayer: {fileID: 0}
   layer1:
     serializedVersion: 2
     m_Bits: 0
@@ -178,9 +177,9 @@ GameObject:
   - component: {fileID: 7188549946256623940}
   - component: {fileID: 1113894956379049409}
   - component: {fileID: 7131531814946919039}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: vision
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

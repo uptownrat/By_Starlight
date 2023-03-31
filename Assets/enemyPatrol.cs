@@ -10,7 +10,7 @@ public class enemyPatrol : MonoBehaviour
     float startBound;
     int direction = 1;
 
-    [SerializeField] private BoxCollider2D detectPlayer;
+    //[SerializeField] private BoxCollider2D detectPlayer;
     [SerializeField] private LayerMask layer1;
     [SerializeField] private float range;
     [SerializeField] private float detectionDist;
@@ -47,14 +47,14 @@ public class enemyPatrol : MonoBehaviour
         }
     }
 
-    private bool playerCaught()
-    {
-        RaycastHit2D found = Physics2D.BoxCast(detectPlayer.bounds.center + transform.right * range * direction * detectionDist,
-            new Vector3(detectPlayer.bounds.size.x * range, detectPlayer.bounds.size.y, detectPlayer.bounds.size.z),
-            0, Vector2.left, 0, layer1);
+    //private bool playerCaught()
+    //{
+    //    RaycastHit2D found = Physics2D.BoxCast(detectPlayer.bounds.center + transform.right * range * direction * detectionDist,
+    //        new Vector3(detectPlayer.bounds.size.x * range, detectPlayer.bounds.size.y, detectPlayer.bounds.size.z),
+    //        0, Vector2.left, 0, layer1);
 
-        return found.collider != null;
-    }
+    //    return found.collider != null;
+    //}
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
