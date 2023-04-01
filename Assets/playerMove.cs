@@ -51,7 +51,7 @@ public class playerMove : MonoBehaviour
         if(collision.transform.tag == "ground")
         {
             resetJumps = true;
-            doubleJump = 0;
+            //doubleJump = 0;
         }
     }
 
