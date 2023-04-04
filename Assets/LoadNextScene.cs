@@ -7,9 +7,11 @@ using TMPro;
 public class LoadNextScene : MonoBehaviour
 {
     private int sceneNum;
+    public bool levelDone;
     private void Start()
     {
         sceneNum = SceneManager.GetActiveScene().buildIndex;
+        levelDone = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -20,6 +22,7 @@ public class LoadNextScene : MonoBehaviour
         {
             int nextScene = sceneNum + 1;
             SceneManager.LoadScene(nextScene);
+            levelDone = true;
         }
     }
 
