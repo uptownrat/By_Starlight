@@ -1,27 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class worryMeter : MonoBehaviour
 {
+    public Animator anim;
+    
     public int currentWorry = 0;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     public void onCaught()
     {
         currentWorry = currentWorry + 1;
+        anim.SetTrigger("caught");
+        Debug.Log("onCaught triggered");
 
-        switch(currentWorry)
+        if (currentWorry == 3)
         {
-            case 1:
-                // switch to slightly worried sprite
-                break;
-            case 2:
-                // switch to worried sprite
-                break;
-            case 3:
-                break;
-            default:
-                //normal sprite
-                break;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
