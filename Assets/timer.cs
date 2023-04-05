@@ -11,12 +11,17 @@ public class Timer : MonoBehaviour
     private bool timeStart;
     [SerializeField] private LoadNextScene load;
 
-    [SerializeField] float threeStar, twoStar, oneStar, noStar;
+    [SerializeField] float threeStar, twoStar, oneStar; //noStar;
+    [SerializeField] GameObject threeWin, twoWin, oneWin;
+
     // Start is called before the first frame update
     void Start()
     {
         timeStart = true;
         currentTime = 0;
+        threeWin.SetActive(false);
+        twoWin.SetActive(false);
+        oneWin.SetActive(false);
     }
 
     // Update is called once per frame
@@ -37,30 +42,33 @@ public class Timer : MonoBehaviour
         }
     }
 
-    void StopTimer()
-    {
-
-    }
-
-    //calculates how many stars based on time
+    //calculates how many stars based on time, in order of best time to worst
     //all star variables have to be manually set based on expected time to complete the level
-    void playerPoints()
+    //floats are a nightmare so just add 1 to the time you want
+    //eg. 3 stars takes 30 secs -> put 31 secs in field
+    public void playerPoints()
     {
+        Debug.Log(currentTime);
         if(currentTime <= threeStar)
         {
-            //3 stars
+            threeWin.SetActive(true);
+            twoWin.SetActive(true);
+            oneWin.SetActive(true);
         }
         else if(currentTime > threeStar && currentTime <= twoStar)
         {
-            //2 stars
+            twoWin.SetActive(true);
+            oneWin.SetActive(true);
         }
         else if(currentTime > twoStar && currentTime <= oneStar)
         {
-            //1 star
+            oneWin.SetActive(true);
         }
-        else if(currentTime > oneStar)
-        {
-            //skill issue
-        }
+    }
+
+    public void DisplayTime(TextMeshProUGUI winTime)
+    {
+        TimeSpan niceTime = TimeSpan.FromSeconds(currentTime);
+        winTime.SetText("Your time: " + niceTime.ToString(@"mm\:ss"));
     }
 }
