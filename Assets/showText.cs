@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class showText : MonoBehaviour
+public class ShowText : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI text;
 

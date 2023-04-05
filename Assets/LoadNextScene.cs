@@ -8,26 +8,40 @@ public class LoadNextScene : MonoBehaviour
 {
     private int sceneNum;
     public bool levelDone;
+    [SerializeField] GameObject completed;
+    [SerializeField] TextMeshProUGUI timeText;
+    private Timer timer;
+
     private void Start()
     {
         sceneNum = SceneManager.GetActiveScene().buildIndex;
         levelDone = false;
+        completed.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //Scene currentScene = SceneManager.GetActiveScene();
-
         if(collision.gameObject.tag == "Player")
         {
-            int nextScene = sceneNum + 1;
-            SceneManager.LoadScene(nextScene);
+            //int nextScene = sceneNum + 1;
+            //SceneManager.LoadScene(sceneNum + 1);
             levelDone = true;
+            completed.SetActive(true);
         }
     }
 
-    public void LoadFirstLevel()
+    public void Retry()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(sceneNum);
+    }
+
+    public void NextLvl()
+    {
+        SceneManager.LoadScene(sceneNum + 1);
+    }
+
+    public void GoHome()
+    {
+        SceneManager.LoadScene(0);
     }
 }

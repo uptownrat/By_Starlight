@@ -4,12 +4,14 @@ using UnityEngine;
 using TMPro;
 using System;
 
-public class timer : MonoBehaviour
+public class Timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI stopwatch;
     private float currentTime;
     private bool timeStart;
-    private LoadNextScene load;
+    [SerializeField] private LoadNextScene load;
+
+    [SerializeField] float threeStar, twoStar, oneStar, noStar;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,15 +30,37 @@ public class timer : MonoBehaviour
         TimeSpan niceTime = TimeSpan.FromSeconds(currentTime);
 
         stopwatch.SetText(niceTime.ToString(@"mm\:ss"));
-        if(load.levelDone == true)
+        //stops timer when level is completed
+        if (load.levelDone == true)
         {
-            //stops timer when level is completed
-            stopTimer();
+            timeStart = false;
         }
     }
 
-    void stopTimer()
+    void StopTimer()
     {
-        timeStart = false;
+
+    }
+
+    //calculates how many stars based on time
+    //all star variables have to be manually set based on expected time to complete the level
+    void playerPoints()
+    {
+        if(currentTime <= threeStar)
+        {
+            //3 stars
+        }
+        else if(currentTime > threeStar && currentTime <= twoStar)
+        {
+            //2 stars
+        }
+        else if(currentTime > twoStar && currentTime <= oneStar)
+        {
+            //1 star
+        }
+        else if(currentTime > oneStar)
+        {
+            //skill issue
+        }
     }
 }
