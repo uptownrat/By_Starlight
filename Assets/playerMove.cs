@@ -9,6 +9,8 @@ public class playerMove : MonoBehaviour
     bool resetJumps;
     private Rigidbody2D rbody;
     public bool playerVisible;
+
+    public Animator princeMove;
    
     private void Awake()
     {
