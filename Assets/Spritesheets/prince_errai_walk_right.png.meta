@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2a55b8107b0da614394473e04216dfea
+guid: a077ef7e98cf7bf4ea5f617c426e0938
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,169 +117,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prince stand
+      name: prince_errai_walk_right_1
       rect:
         serializedVersion: 2
-        x: 43
-        y: 355
-        width: 122
-        height: 171
+        x: 30
+        y: 326
+        width: 171
+        height: 195
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2523c1b683842e14986f77765473304d
-      internalID: 492644546
+      spriteID: 2c468addf82750f45a22851cebba3675
+      internalID: 1693662554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prince run
+      name: prince_errai_walk_right_2
       rect:
         serializedVersion: 2
-        x: 431
-        y: 353
-        width: 181
-        height: 146
+        x: 203
+        y: 329
+        width: 189
+        height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe0c46ae2412f4641854d98830d8071d
-      internalID: 2077280383
+      spriteID: 54d6b9a92404d7e4597ff61fda690d6f
+      internalID: -2046760345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prince charge
+      name: prince_errai_walk_right_3
       rect:
         serializedVersion: 2
-        x: 232
-        y: 317
-        width: 139
-        height: 207
+        x: 396
+        y: 328
+        width: 178
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c75094f022ccd654989ddda1d56b3389
-      internalID: 1413071950
+      spriteID: 7483435f766ddca46b2d873c10600f26
+      internalID: -416523341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prince walk
+      name: prince_errai_walk_right_4
       rect:
         serializedVersion: 2
-        x: 666
-        y: 324
-        width: 166
-        height: 185
+        x: 582
+        y: 330
+        width: 194
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf6e9b51cdcdd6647b86b75a8318c940
-      internalID: -1510506808
+      spriteID: f488890ff76e38e44ba739d87977a8e5
+      internalID: 751734159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prince hide
+      name: prince_errai_walk_right_5
       rect:
         serializedVersion: 2
-        x: 3
-        y: 131
-        width: 117
-        height: 178
+        x: 784
+        y: 328
+        width: 168
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d34a7a5189bff94b8835eadc5ce9879
-      internalID: -1374185086
+      spriteID: f741bd7e2f975d644a4669d3bff6dc8b
+      internalID: -1935737234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prince swing
+      name: prince_errai_walk_right_6
       rect:
         serializedVersion: 2
-        x: 170
-        y: 73
-        width: 211
-        height: 157
+        x: 960
+        y: 328
+        width: 184
+        height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49cd6f82529aa0b40a5c7e090a58d800
-      internalID: 1988173193
+      spriteID: ae345e678fd244940bbc58f184c4e425
+      internalID: 1401871666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prince hit
+      name: prince_errai_walk_right_7
       rect:
         serializedVersion: 2
-        x: 403
-        y: 28
-        width: 205
-        height: 201
+        x: 24
+        y: 124
+        width: 178
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceeadc2f1819b0e42886fe6d4f85bfaa
-      internalID: -1749783317
+      spriteID: 30672c4f3dd5b56439e40802a634b555
+      internalID: 1821713377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prince jump
+      name: prince_errai_walk_right_8
       rect:
         serializedVersion: 2
-        x: 643
-        y: 10
-        width: 170
-        height: 219
+        x: 205
+        y: 124
+        width: 190
+        height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 192084f74cd1752419797897b97f17dc
-      internalID: 2053044191
+      spriteID: 0beb8f5a475006642b1a6452561aa146
+      internalID: 2073379371
       vertices: []
       indices: 
       edges: []
@@ -295,86 +295,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      prince sprite sheets_32: -797183982
-      prince sprite sheets_42: 1698602354
-      prince sprite sheets_4: 2094808482
-      prince sprite sheets_21: -793679815
-      prince sprite sheets_46: 84933756
-      prince sprite sheets_49: 1390928457
-      prince sprite sheets_50: -873435008
-      prince sprite sheets_57: -2037688712
-      prince sprite sheets_69: 1786067725
-      prince hit: -1749783317
-      prince sprite sheets_43: 1939541715
-      prince sprite sheets_0: 1306010055
-      prince sprite sheets_18: -981055752
-      prince sprite sheets_17: 1476913154
-      prince sprite sheets_23: 1623535132
-      prince sprite sheets_62: -1613951770
-      prince sprite sheets_25: -1854735449
-      prince sprite sheets_47: -612305676
-      prince sprite sheets_60: -1865339645
-      prince sprite sheets_27: -2129050023
-      prince sprite sheets_55: -1260191906
-      prince sprite sheets_41: 1804278121
-      prince jump: 2053044191
-      prince sprite sheets_73: -1091138872
-      prince sprite sheets_40: 746356937
-      prince sprite sheets_20: -1039913012
-      prince sprite sheets_37: 1851018431
-      prince sprite sheets_19: 669670663
-      prince sprite sheets_51: -851932740
-      prince sprite sheets_56: 106322010
-      prince sprite sheets_2: -2015817106
-      prince sprite sheets_68: -1697353861
-      prince sprite sheets_65: 1036582328
-      prince sprite sheets_52: -110697941
-      prince sprite sheets_5: -1500216329
-      prince sprite sheets_71: -2119193968
-      prince sprite sheets_15: 1845031298
-      prince sprite sheets_66: 280262460
-      prince sprite sheets_64: 1781973573
-      prince sprite sheets_26: 2125806573
-      prince sprite sheets_22: 2009945874
-      prince sprite sheets_34: -714683945
-      prince sprite sheets_1: 900216168
-      prince walk: -1510506808
-      prince swing: 1988173193
-      prince sprite sheets_58: 414727830
-      prince sprite sheets_33: -1690307015
-      prince sprite sheets_9: -362295150
-      prince sprite sheets_59: -1367344271
-      prince sprite sheets_8: -476273885
-      prince sprite sheets_30: -157271063
-      prince sprite sheets_11: -382321751
-      prince sprite sheets_3: 897813601
-      prince sprite sheets_44: 501830374
-      prince sprite sheets_77: -1067168441
-      prince sprite sheets_36: 677768342
-      prince sprite sheets_28: 1672631126
-      prince sprite sheets_35: -1974250378
-      prince sprite sheets_79: -1010819256
-      prince sprite sheets_54: 530070664
-      prince sprite sheets_75: 329273833
-      prince sprite sheets_7: 925468826
-      prince run: 2077280383
-      prince sprite sheets_6: -927795101
-      prince sprite sheets_53: -288717103
-      prince sprite sheets_61: -1996363319
-      prince sprite sheets_74: 1546009416
-      prince sprite sheets_78: -1438723284
-      prince stand: 492644546
-      prince sprite sheets_13: -2076238316
-      prince sprite sheets_29: 292652067
-      prince sprite sheets_38: -1796710091
-      prince sprite sheets_39: 777835922
-      prince sprite sheets_76: 871051696
-      prince sprite sheets_45: -566325775
-      prince sprite sheets_12: -364243296
-      prince sprite sheets_14: 88429512
-      prince sprite sheets_72: 219678220
-      prince hide: -1374185086
-      prince charge: 1413071950
+      prince_errai_walk_right_12: 1111742452
+      prince_errai_walk_right_13: -1814703583
+      prince_errai_walk_right_1: 1693662554
+      prince_errai_walk_right_8: 2073379371
+      prince_errai_walk_right_3: -416523341
+      prince_errai_walk_right_4: 751734159
+      prince_errai_walk_right_18: -340465163
+      prince_errai_walk_right_10: -930905222
+      prince_errai_walk_right_11: 1773933327
+      prince_errai_walk_right_20: 1477299050
+      prince_errai_walk_right_9: 1316552870
+      prince_errai_walk_right_19: 1949019611
+      prince_errai_walk_right_14: -1900097678
+      prince_errai_walk_right_16: 503682945
+      prince_errai_walk_right_17: -591891189
+      prince_errai_walk_right_6: 1401871666
+      prince_errai_walk_right_15: 375089613
+      prince_errai_walk_right_2: -2046760345
+      prince_errai_walk_right_5: -1935737234
+      prince_errai_walk_right_0: -1205297654
+      prince_errai_walk_right_21: -1898250555
+      prince_errai_walk_right_7: 1821713377
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
