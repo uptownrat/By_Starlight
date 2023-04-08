@@ -4,14 +4,14 @@ using UnityEngine;
 using TMPro;
 using System;
 
-public class Timer : MonoBehaviour
+public class timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI stopwatch;
     private float currentTime;
     private bool timeStart;
     [SerializeField] private LoadNextScene load;
 
-    [SerializeField] float threeStar, twoStar, oneStar; //noStar;
+    [SerializeField] float threeStar, twoStar, oneStar;
     [SerializeField] GameObject threeWin, twoWin, oneWin;
 
     // Start is called before the first frame update

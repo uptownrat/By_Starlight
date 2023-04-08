@@ -10,7 +10,7 @@ public class LoadNextScene : MonoBehaviour
     public bool levelDone;
     [SerializeField] GameObject completed;
     [SerializeField] TextMeshProUGUI timeText;
-    [SerializeField] private Timer timer;
+    [SerializeField] private timer timer;
 
     private void Start()
     {
