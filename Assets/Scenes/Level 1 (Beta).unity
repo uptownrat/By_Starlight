@@ -7992,6 +7992,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: befeeafd80a2e094d9a8779631c25675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stopwatch: {fileID: 725419967}
+  load: {fileID: 373448076}
+  threeStar: 0
+  twoStar: 0
+  oneStar: 0
+  threeWin: {fileID: 8344160}
+  twoWin: {fileID: 1966945355}
+  oneWin: {fileID: 1165233894}
 --- !u!4 &1411559536
 Transform:
   m_ObjectHideFlags: 0
