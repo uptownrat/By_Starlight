@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4af26863d447b054d96678541c4ed7d7
+guid: 53f95f1ddb4cff1458155a206216ecd3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prince jump sprites_0
+      name: prince idle sprites_0
       rect:
         serializedVersion: 2
-        x: 288
-        y: 638
-        width: 1549
-        height: 2087
+        x: 265
+        y: 416
+        width: 1124
+        height: 1703
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 476bb9b1c5b19a84f9c4f761c3a833a4
-      internalID: 486097319
+      spriteID: 8743facda72126c40a97e0f42b6625cb
+      internalID: -1021152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prince jump sprites_1
+      name: prince idle sprites_1
       rect:
         serializedVersion: 2
-        x: 2286
-        y: 385
-        width: 1411
-        height: 1978
+        x: 2083
+        y: 416
+        width: 1168
+        height: 1688
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fec1b40624c4714ba2de39b01ada66d
-      internalID: 771896972
+      spriteID: a161ef1cd08ba454f8b18f4e5377d67e
+      internalID: -1167575015
       vertices: []
       indices: 
       edges: []
@@ -169,9 +169,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      prince jump sprites_2: -452586557
-      prince jump sprites_0: 486097319
-      prince jump sprites_1: 771896972
+      prince idle sprites_1: -1167575015
+      prince idle sprites_0: -1021152
+      prince idle sprites_2: 471811028
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
