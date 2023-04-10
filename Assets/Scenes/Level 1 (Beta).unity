@@ -4676,6 +4676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prince
       objectReference: {fileID: 0}
+    - target: {fileID: 3669667978433495356, guid: 25c88b47339af6441a436855fe815b6b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1269497293, guid: 8376124c2f48dc34b8918cb29bfa846b, type: 3}
     - target: {fileID: 3669667978433495358, guid: 25c88b47339af6441a436855fe815b6b, type: 3}
       propertyPath: m_RootOrder
       value: 0
