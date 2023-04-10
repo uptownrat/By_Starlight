@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4af26863d447b054d96678541c4ed7d7
+guid: 53f95f1ddb4cff1458155a206216ecd3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prince jump sprites_0
+      name: prince idle sprites_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 309
-        width: 155
-        height: 209
+        x: 27
+        y: 357
+        width: 112
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a36e28f9e4f9484ab53b076ab17903e
-      internalID: 129998841
+      spriteID: 2c16d08e5f482474e9642c144b872056
+      internalID: -1177623443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prince jump sprites_1
+      name: prince idle sprites_1
       rect:
         serializedVersion: 2
-        x: 229
-        y: 284
-        width: 141
-        height: 197
+        x: 208
+        y: 358
+        width: 117
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f822dfc3659a7f744b7ca5ad65d2c72b
-      internalID: -1768264521
+      spriteID: 4c4cf38ab2cb8a64f8f1a6bd8b1a8f39
+      internalID: -425278444
       vertices: []
       indices: 
       edges: []
@@ -169,8 +169,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      prince jump sprites_0: 129998841
-      prince jump sprites_1: -1768264521
+      prince idle sprites_1: -425278444
+      prince idle sprites_0: -1177623443
+      prince idle sprites_2: 2140747262
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
