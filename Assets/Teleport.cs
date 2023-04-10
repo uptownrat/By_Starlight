@@ -5,9 +5,10 @@ using UnityEngine;
 public class Teleport : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static int timesInteracted = 0;
+    //public static int timesInteracted = 0;
 
-    public GameObject destination;
+    [SerializeField] GameObject destination;
+    [SerializeField] Color newColor;
     bool canInteract;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -40,8 +41,9 @@ public class Teleport : MonoBehaviour
         {
             Debug.Log("teleport");
             GameObject.FindGameObjectWithTag("Player").transform.position = destination.transform.position;
-            timesInteracted++;
-            Debug.Log("Tele interacts:" + timesInteracted);
+            gameObject.GetComponent<SpriteRenderer>().color = newColor;
+            //timesInteracted++;
+            //Debug.Log("Tele interacts:" + timesInteracted);
         }
     }
 }
