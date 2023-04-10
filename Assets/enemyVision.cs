@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class enemyVision : MonoBehaviour
@@ -18,13 +17,12 @@ public class enemyVision : MonoBehaviour
     bool detectable;
     [SerializeField] private float speed;
     [SerializeField] private float range;
+    [SerializeField] GameObject warning;
+    
+    GameObject dot;
     public static Vector2 checkpoint;
     [SerializeField] playerMove player;
-
-    //vars for guard warning
-    [SerializeField] GameObject warning;
-    private GameObject dot;
-    [SerializeField] GameObject enemy;
+    //Transform enemy;
 
     public worryMeter worry;
 
@@ -32,7 +30,8 @@ public class enemyVision : MonoBehaviour
     void Start()
     {
         startBound = transform.position.x;
-        //dotText = enemy.gameObject.transform.GetChild(0).GetChild(0);
+        //enemy = gameObject.transform.parent;
+        //sceneNum = SceneManager.GetActiveScene().buildIndex;
     }
 
     void Update()
@@ -56,24 +55,11 @@ public class enemyVision : MonoBehaviour
         }
     }
 
-    ////coroutine for counting down warning
-    //private IEnumerator WarningChange()
-    //{
-    //    while (timeLeft > 0)
-    //    {
-    //        fill.fillAmount = fill.fillAmount - 0.33f;
-    //        yield return new WaitForSeconds(1f);
-    //        Debug.Log(timeLeft);
-    //    }
-    //}
-
-    //created warning that counts down from 3, follows the guard it's assigned to
     private void CreateWarning()
     {
-        Transform enTransform = enemy.GetComponent<Transform>();
-        dot = Instantiate(warning, enTransform.position, enTransform.rotation);
-        dot.transform.position = new Vector3(enTransform.position.x, enTransform.position.y + 1.5f, enTransform.position.z);
-        dot.transform.SetParent(enTransform);
+        dot = Instantiate(warning, transform.position, transform.rotation);
+        //warning.transform.position = new Vector3(enemy.position.x, enemy.position.y + 5.0f, enemy.position.z);
+        //warning.transform.SetParent(enemy.transform);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -83,7 +69,6 @@ public class enemyVision : MonoBehaviour
             detectable = true;
             Debug.Log("Detected");
             CreateWarning();
-
         }
     }
 
@@ -115,5 +100,4 @@ public class enemyVision : MonoBehaviour
             Destroy(dot);
         }
     }
-
 }

@@ -9,15 +9,11 @@ public class CrystalInteract : MonoBehaviour
 
     bool canInteract;
     public Light2D crystal;
-    public AudioSource src;
-    public AudioClip on;
 
     // Start is called before the first frame update
     void Start()
     {
         canInteract = false;
-
-        src = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -49,8 +45,6 @@ public class CrystalInteract : MonoBehaviour
             if (crystal.intensity == 0)
             {
                 crystal.intensity = 1;
-                src.clip = on;
-                src.Play();
             }
             else
             {

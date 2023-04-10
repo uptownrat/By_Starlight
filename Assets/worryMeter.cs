@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class worryMeter : MonoBehaviour
 {
     public Animator anim;
-    public ophiSprite ophi;
     
     public int currentWorry = 0;
 
@@ -20,8 +19,6 @@ public class worryMeter : MonoBehaviour
         currentWorry = currentWorry + 1;
         anim.SetTrigger("caught");
         Debug.Log("onCaught triggered");
-
-        ophi.anim.SetTrigger("caught");
 
         if (currentWorry == 3)
         {
