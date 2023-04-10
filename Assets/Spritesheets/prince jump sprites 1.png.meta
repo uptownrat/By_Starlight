@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 53f95f1ddb4cff1458155a206216ecd3
+guid: 1b60dd092781b8d4584f5c720b8f7c5b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prince idle sprites_0
+      name: prince jump sprites_0
       rect:
         serializedVersion: 2
-        x: 265
-        y: 416
-        width: 1124
-        height: 1703
+        x: 30
+        y: 309
+        width: 155
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8743facda72126c40a97e0f42b6625cb
-      internalID: -1021152
+      spriteID: 01bcd3a599a601348ab156efd6c5230b
+      internalID: 1733286932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prince idle sprites_1
+      name: prince jump sprites_1
       rect:
         serializedVersion: 2
-        x: 2083
-        y: 416
-        width: 1168
-        height: 1688
+        x: 229
+        y: 284
+        width: 141
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a161ef1cd08ba454f8b18f4e5377d67e
-      internalID: -1167575015
+      spriteID: 1eca42b5cd98b1b47a54b8133810252f
+      internalID: -2104847087
       vertices: []
       indices: 
       edges: []
@@ -169,9 +169,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      prince idle sprites_1: -1167575015
-      prince idle sprites_0: -1021152
-      prince idle sprites_2: 471811028
+      prince jump sprites_0: 1733286932
+      prince jump sprites_1: -2104847087
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
