@@ -41,7 +41,7 @@ public class Teleport : MonoBehaviour
         {
             Debug.Log("teleport");
             GameObject.FindGameObjectWithTag("Player").transform.position = destination.transform.position;
-            gameObject.GetComponent<SpriteRenderer>().color = newColor;
+            // gameObject.GetComponent<SpriteRenderer>().color = newColor;
             //timesInteracted++;
             //Debug.Log("Tele interacts:" + timesInteracted);
         }
