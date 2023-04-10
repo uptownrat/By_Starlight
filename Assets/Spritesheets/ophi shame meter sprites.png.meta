@@ -120,12 +120,12 @@ TextureImporter:
       name: ophi shame meter sprites_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 291
+        x: 23
+        y: 296
         width: 83
-        height: 73
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: ophi shame meter sprites_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 157
-        width: 83
-        height: 73
+        x: 26
+        y: 158
+        width: 81
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: ophi shame meter sprites_2
       rect:
         serializedVersion: 2
-        x: 36
+        x: 42
         y: 27
-        width: 83
+        width: 70
         height: 73
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

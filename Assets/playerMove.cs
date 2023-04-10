@@ -10,16 +10,11 @@ public class playerMove : MonoBehaviour
     private Rigidbody2D rbody;
     public bool playerVisible;
 
-    public AudioSource src;
-    public AudioClip walk;
-
     public Animator princeMove;
    
     private void Awake()
     {
         rbody = GetComponent<Rigidbody2D>();
-        src = GetComponent<AudioSource>();
-
         playerVisible = true;
     }
 
@@ -51,16 +46,6 @@ public class playerMove : MonoBehaviour
         }
 
         rbody.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rbody.velocity.y);
-
-        if (rbody.velocity.x != 0 && resetJumps == true && src.isPlaying == false)
-        {
-            src.clip = walk;
-            src.Play();
-        }
-        else if (resetJumps == false)
-        {
-            src.Stop();
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
