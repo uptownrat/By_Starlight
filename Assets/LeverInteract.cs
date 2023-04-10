@@ -9,15 +9,12 @@ public class LeverInteract : MonoBehaviour
     bool canInteract;
     [SerializeField] gate gate, gate2, gate3;
     private Animator anim;
-    public AudioSource src;
-    public AudioClip lvr;
 
     // Start is called before the first frame update
     void Start()
     {
         canInteract = false;
         anim = GetComponent<Animator>();
-        src = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -61,9 +58,6 @@ public class LeverInteract : MonoBehaviour
             gate.MoveGate();
             gate2.MoveGate();
             gate3.MoveGate();
-
-            src.clip = lvr;
-            src.Play();
         }
     }
 }
