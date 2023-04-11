@@ -2882,6 +2882,10 @@ PrefabInstance:
       propertyPath: pointB
       value: 
       objectReference: {fileID: 1095948235}
+    - target: {fileID: 250738034025293318, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7131531814946919039, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: worry
       value: 
