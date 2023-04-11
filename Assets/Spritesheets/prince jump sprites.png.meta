@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 79637e7a9176b97479f2ab1728e52b6b
+guid: 4af26863d447b054d96678541c4ed7d7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: checkpoint_0
+      name: prince jump sprites_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 150
-        height: 400
+        x: 30
+        y: 309
+        width: 155
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c39926e5a1cd4f24ba41464d5ac35cea
-      internalID: -159631340
+      spriteID: 0a36e28f9e4f9484ab53b076ab17903e
+      internalID: 129998841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: checkpoint_1
+      name: prince jump sprites_1
       rect:
         serializedVersion: 2
-        x: 150
-        y: 0
-        width: 150
-        height: 400
+        x: 229
+        y: 284
+        width: 141
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bd9e8c31882d6f4ba1e744080c34c15
-      internalID: 270321072
+      spriteID: f822dfc3659a7f744b7ca5ad65d2c72b
+      internalID: -1768264521
       vertices: []
       indices: 
       edges: []
@@ -169,8 +169,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      checkpoint_1: 270321072
-      checkpoint_0: -159631340
+      prince jump sprites_0: 129998841
+      prince jump sprites_1: -1768264521
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

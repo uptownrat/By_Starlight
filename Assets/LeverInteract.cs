@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LeverInteract : MonoBehaviour
 {
-    public int timesInteracted = 0;
+    public static int timesInteracted = 0;
 
     bool canInteract;
     [SerializeField] gate gate, gate2, gate3;
