@@ -4849,6 +4849,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prince
       objectReference: {fileID: 0}
+    - target: {fileID: 3669667978433495356, guid: 25c88b47339af6441a436855fe815b6b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1269497293, guid: 8376124c2f48dc34b8918cb29bfa846b, type: 3}
+    - target: {fileID: 3669667978433495357, guid: 25c88b47339af6441a436855fe815b6b, type: 3}
+      propertyPath: princeMove
+      value: 
+      objectReference: {fileID: 2035826705}
     - target: {fileID: 3669667978433495358, guid: 25c88b47339af6441a436855fe815b6b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -12969,6 +12977,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a85b2fd4beac00c46aef697553d0f801, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2035826705
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035826698}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a33efd97fc17a2f48b2c56eab4a6d519, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2056277475
 GameObject:
   m_ObjectHideFlags: 0

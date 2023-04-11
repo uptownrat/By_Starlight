@@ -14,6 +14,11 @@ public class playerMove : MonoBehaviour
     public AudioClip walk;
 
     public Animator princeMove;
+
+    bool jumpActive;
+    bool notMoving;
+    bool left;
+    bool right;
    
     private void Awake()
     {
@@ -26,6 +31,11 @@ public class playerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        jumpActive = false;
+        notMoving = true;
+        left = false;
+        right = false;
+
         if(resetJumps == true || doubleJump < 2)
         {
             /*if (Input.GetKeyDown("space") || Input.GetKeyDown("up"))
@@ -38,6 +48,8 @@ public class playerMove : MonoBehaviour
             {
                 rbody.velocity = new Vector2(rbody.velocity.x, 7);
                 doubleJump++;
+
+                jumpActive = true;
             }
         //}
         }
@@ -52,7 +64,20 @@ public class playerMove : MonoBehaviour
 
         rbody.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rbody.velocity.y);
 
-        if (rbody.velocity.x != 0 && resetJumps == true && src.isPlaying == false)
+        if (rbody.velocity.x < 0 && jumpActive == false) 
+        { 
+            left = true;
+            right = false;
+            notMoving = false;
+        }
+		else if (rbody.velocity.x > 0 && jumpActive == false)
+		{
+			right = true;
+            left = false;
+			notMoving = false;
+		}
+
+		if (rbody.velocity.x != 0 && resetJumps == true && src.isPlaying == false)
         {
             src.clip = walk;
             src.Play();
@@ -61,7 +86,12 @@ public class playerMove : MonoBehaviour
         {
             src.Stop();
         }
-    }
+
+		princeMove.SetBool("isJumping", jumpActive);
+		princeMove.SetBool("Still", notMoving);
+		princeMove.SetBool("goingLeft", left);
+		princeMove.SetBool("goingRight", right);
+	}
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -69,6 +99,8 @@ public class playerMove : MonoBehaviour
         {
             resetJumps = true;
             //doubleJump = 0;
+
+            jumpActive = false;
         }
     }
 
