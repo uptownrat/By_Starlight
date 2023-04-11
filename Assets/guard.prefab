@@ -44,6 +44,8 @@ GameObject:
   - component: {fileID: 7158222209154007939}
   - component: {fileID: 7158222209154007937}
   - component: {fileID: 5609221196612684140}
+  - component: {fileID: 250738034025293318}
+  - component: {fileID: 7809483802088848540}
   m_Layer: 8
   m_Name: guard
   m_TagString: enemy
@@ -106,7 +108,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -744697655
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -51417151, guid: 7c11f5715ddaa7745ad8cd37efc348d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -126,7 +128,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7158222209154007938}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a601b32d6eb2986409a9b035f187558b, type: 3}
   m_Name: 
@@ -165,6 +167,43 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9, y: 1.95}
   m_EdgeRadius: 0
+--- !u!114 &250738034025293318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158222209154007938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ab7e5c7da63f4489c79651941cff27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
+  speed: 0
+  visDir: 0
+--- !u!50 &7809483802088848540
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158222209154007938}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1 &7292949564138789881
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,7 +277,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -744697655
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 78e946a52ef5d1d4a91079544df513bc, type: 3}
   m_Color: {r: 0.9528302, g: 0.8166265, b: 0.31011927, a: 0.72156864}
