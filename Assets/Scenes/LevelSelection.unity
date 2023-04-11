@@ -595,7 +595,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1154241931}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff7b759f46279a84cb75e53996ed29e8, type: 3}
+  m_Script: {fileID: 11500000, guid: ddaa98a04d45fbc428956dbe4a43d160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1154241934
@@ -643,9 +643,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1154241933}
-        m_TargetAssemblyTypeName: LvlSelection, Assembly-CSharp
-        m_MethodName: selectLevel
-        m_Mode: 3
+        m_TargetAssemblyTypeName: SelectLvlScript, Assembly-CSharp
+        m_MethodName: loadLevel2
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -877,7 +877,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1307336200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff7b759f46279a84cb75e53996ed29e8, type: 3}
+  m_Script: {fileID: 11500000, guid: ddaa98a04d45fbc428956dbe4a43d160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1307336203
@@ -925,9 +925,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1307336202}
-        m_TargetAssemblyTypeName: LvlSelection, Assembly-CSharp
-        m_MethodName: selectLevel
-        m_Mode: 3
+        m_TargetAssemblyTypeName: SelectLvlScript, Assembly-CSharp
+        m_MethodName: loadLevel1
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
