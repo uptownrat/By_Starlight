@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/End Screen.unity
     guid: 8c5b8563cc2df2149b546230afd86bb3
+  - enabled: 1
+    path: Assets/Scenes/Intro Sequence.unity
+    guid: bc211bf74fe8ea944955587c814dbf57
+  - enabled: 1
+    path: Assets/Scenes/LevelSelection.unity
+    guid: eed02e5776133fa4f8c39642a5037574
   m_configObjects: {}
