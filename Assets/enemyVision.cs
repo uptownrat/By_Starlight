@@ -22,9 +22,10 @@ public class enemyVision : MonoBehaviour
     GameObject dot;
     public static Vector2 checkpoint;
     [SerializeField] playerMove player;
-    //Transform enemy;
+    [SerializeField] GameObject enemy;
 
     public worryMeter worry;
+    [SerializeField] Color red;
 
     float timeLeft = 3.0f;
     void Start()
@@ -57,9 +58,10 @@ public class enemyVision : MonoBehaviour
 
     private void CreateWarning()
     {
+        Transform eTransform = enemy.gameObject.GetComponent<Transform>();
         dot = Instantiate(warning, transform.position, transform.rotation);
-        //warning.transform.position = new Vector3(enemy.position.x, enemy.position.y + 5.0f, enemy.position.z);
-        //warning.transform.SetParent(enemy.transform);
+        dot.transform.position = new Vector3(eTransform.position.x, eTransform.position.y + 1.5f, eTransform.position.z);
+        dot.transform.SetParent(enemy.transform);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -77,6 +79,7 @@ public class enemyVision : MonoBehaviour
         if (detectable == true)
         {
             timeLeft -= Time.deltaTime;
+            ChangeColor();
             if (timeLeft < 0)
             {
                 Debug.Log("You lose");
@@ -98,6 +101,14 @@ public class enemyVision : MonoBehaviour
             detectable = false;
             Debug.Log("i'm out");
             Destroy(dot);
+        }
+    }
+
+    private void ChangeColor()
+    {
+        if(timeLeft < 2)
+        {
+            dot.GetComponent<SpriteRenderer>().color = red;
         }
     }
 }
