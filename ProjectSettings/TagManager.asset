@@ -6,11 +6,12 @@ TagManager:
   tags:
   - ground
   - enemy
+  - Dot
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Light
   - Water
   - UI
   - Player
