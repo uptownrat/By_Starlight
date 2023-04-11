@@ -1343,6 +1343,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2140980521}
     m_Modifications:
     - target: {fileID: 250738034025293318, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: speed
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 250738034025293318, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: pointA
       value: 
       objectReference: {fileID: 855863190}
@@ -2453,6 +2457,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2140980521}
     m_Modifications:
+    - target: {fileID: 250738034025293318, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
+      propertyPath: speed
+      value: 2.75
+      objectReference: {fileID: 0}
     - target: {fileID: 250738034025293318, guid: 13c3ac13d01b7244f9712397bc9c6d9c, type: 3}
       propertyPath: pointA
       value: 
@@ -7666,7 +7674,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217550313}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9ab7e5c7da63f4489c79651941cff27, type: 3}
   m_Name: 
